@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import { useRouter, useParams } from "next/navigation";
 import Link from "next/link";
-import StatusBadge from "../../../components/StatusBadge";
-import { getJob, updateJobStatus, deleteJob } from "../../../lib/api";
+import StatusBadge from "../../components/StatusBadge";
+import { getJob, updateJobStatus, deleteJob } from "../../lib/api";
 
 const STATUSES = ["Open", "In Progress", "Closed"];
 
