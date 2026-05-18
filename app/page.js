@@ -2,8 +2,8 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
-import JobCard from "../../components/JobCard";
-import { getJobs } from "../../lib/api";
+import JobCard from "../components/JobCard";
+import { getJobs } from "../lib/api";
 
 const CATEGORIES = ["All", "Plumbing", "Electrical", "Painting", "Joinery", "Other"];
 const STATUSES = ["All", "Open", "In Progress", "Closed"];
